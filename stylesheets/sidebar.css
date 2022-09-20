@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+nav {
+    width: 300px;
+    display: block;
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    overflow: hidden;
+    opacity: 0.1;
+    transition: all .1s ease-out;
+}
+nav:hover {
+    opacity: 1;
+    transition: all .1s ease-out;
+}
+nav p {
+    font-weight: bold;
+}
+nav a {
+    text-decoration: none;
+}
+nav ul {
+    list-style-type: none   ;
+}
+nav li {
+    margin: 10px 0;
+    line-height: 20px;
+    font-size: 15px;
+}
+nav ul > ul {
+    margin-left: 10px;
+    color: #777;
+}
