@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 nav {
-    width: 300px;
+    width: 240px;
     display: block;
     position: fixed;
     top: 10px;
