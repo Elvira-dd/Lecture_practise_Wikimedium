@@ -6,5 +6,6 @@
 @import "menubar.css";
 @import "about.css";
 @import "index.css";
+@import "alpha_page.css";
 @import "responsive.css";
 /* responsive нужно подключать в самом конце */

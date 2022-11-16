@@ -1,79 +1,136 @@
-article h1,  article h2,  article h3, article h4,  article p,  article ul,  article blockquote,  article ol, article hr, article h4 { width: 700px; margin: 0 auto; 
+article h1,
+article h2,
+article h3,
+article h4,
+article p,
+article ul,
+article blockquote,
+article ol,
+article hr,
+article h4 {
+  width: 700px;
+  margin: 0 auto;
 }
-article h1,  article h2,  article h3, article h4 { font-family: 'PT Sans Caption', sans-serif; font-weight: bold;
+article h1,
+article h2,
+article h3,
+article h4 {
+  font-family: "PT Sans Caption", sans-serif;
+  font-weight: bold;
 }
-article h1 { margin-top: 67px; font-size: 38px; line-height: 45px;
+article h1 {
+  margin-top: 67px;
+  font-size: 38px;
+  line-height: 45px;
 }
-article h1 + article p { margin-top: 8px; font-family: 'PT Sans Caption', sans-serif; font-size: 22px; line-height: 22px; color: rgba(0,0,0,.4);
+article h1 + article p {
+  margin-top: 8px;
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.4);
 }
-article h1 + p + p { margin-top: 30px;
+article h1 + p + p {
+  margin-top: 30px;
 }
-article h2 { margin-top: 64px; font-size: 34px; line-height: 36px; color: rgba(0, 0, 0, .8);
+article h2 {
+  margin-top: 64px;
+  font-size: 34px;
+  line-height: 36px;
+  color: rgba(0, 0, 0, 0.8);
 }
 article h2 + p,
-article h2 + blockquote { margin-top: 7px;
+article h2 + blockquote {
+  margin-top: 7px;
 }
-article h3 { margin-top: 36px; font-size: 28px; line-height: 34px; color: rgba(0, 0, 0, .8);
+article h3 {
+  margin-top: 36px;
+  font-size: 28px;
+  line-height: 34px;
+  color: rgba(0, 0, 0, 0.8);
 }
 article h4 {
-    margin-top: 52px ;
-    font-size: 22px;
-    line-height: 30px;
-    color: rgba(0, 0, 0, .8);
+  margin-top: 52px;
+  font-size: 22px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.8);
 }
 article h4 + p {
-    margin-top: 18px;
+  margin-top: 18px;
 }
 article h3 + p,
-article h3 + blockquote { margin-top: 8px;
+article h3 + blockquote {
+  margin-top: 8px;
 }
-article p, article blockquote, article li { margin-top: 29px; font-size: 20px; line-height: 34px;
+article blockquote img {
+  width: 50%;
+  margin-left: 0px;
 }
-article blockquote { 
-    font-style: italic;
-    position: relative;
+article blockquote img + p {
+  margin-top: 15px;
+}
+article p,
+article blockquote,
+article li {
+  margin-top: 29px;
+  font-size: 20px;
+  line-height: 34px;
+}
+article blockquote {
+  font-style: italic;
+  position: relative;
 }
 article blockquote::before {
-    content: '';
-    width: 3px;
-    height: 100%;
-    background: black;
-    position: absolute;
-    top: 0px;
-    left: -20px ;
+  content: "";
+  width: 3px;
+  height: 100%;
+  background: black;
+  position: absolute;
+  top: 0px;
+  left: -20px;
 }
-article img { display: block; width: 1020px; margin: 90px auto 0;
+article img {
+  display: block;
+  width: 1020px;
+  margin: 90px auto 0;
 }
-article img + h2 { margin-top: 79px;
+article img + h2 {
+  margin-top: 79px;
 }
 article img + p,
 article img + blockquote,
-article img + ul { margin-top: 77px;
+article img + ul {
+  margin-top: 77px;
 }
-article h2 + img { margin-top: 82px;
+article h2 + img {
+  margin-top: 82px;
 }
-article h3 + img { margin-top: 81px;
+article h3 + img {
+  margin-top: 81px;
 }
 article ul {
-    list-style-type: disc;
+  list-style-type: disc;
 }
 article ol {
-    list-style-type:disc;
+  list-style-type: disc;
 }
 article h1 + p {
-    color: darkgray;
+  color: darkgray;
 }
 sup {
-    font-size: 14px;
-    vertical-align: super;
+  font-size: 14px;
+  vertical-align: super;
 }
 sup {
-    font-size: 14px;
-    vertical-align: super;
+  font-size: 14px;
+  vertical-align: super;
 }
 article h2 + h3 {
-    margin-top: 56px;
+  margin-top: 56px;
 }
 article {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
+}
+article hr {
+  margin-top: 5px;
 }
