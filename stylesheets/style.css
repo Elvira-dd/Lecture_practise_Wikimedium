@@ -1,7 +1,10 @@
-@import 'reset.css';
-@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700|PT+Sans:400,400i,700,700i&amp;subset=cyrillic');
-@import 'layout.css';
-@import 'sidebar.css';
-@import 'content.css';
-@import 'menubar.css';
-@import 'about.css'
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700|PT+Sans:400,400i,700,700i&amp;subset=cyrillic");
+@import "layout.css";
+@import "sidebar.css";
+@import "content.css";
+@import "menubar.css";
+@import "about.css";
+@import "index.css";
+@import "responsive.css";
+/* responsive нужно подключать в самом конце */

@@ -1,36 +1,36 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 nav {
-    width: 240px;
-    display: block;
-    position: fixed;
-    top: 10px;
-    left: 20px;
-    overflow: hidden;
-    opacity: 0.1;
-    transition: all .1s ease-out;
-    margin-top: 110px;
+  width: 240px;
+  display: block;
+  position: fixed;
+  top: 10px;
+  left: 20px;
+  overflow: hidden;
+  opacity: 0.1;
+  transition: all 0.1s ease-out;
+  margin-top: 110px;
 }
 nav:hover {
-    opacity: 1;
-    transition: all .1s ease-out;
+  opacity: 1;
+  transition: all 0.1s ease-out;
 }
 nav p {
-    font-weight: bold;
+  font-weight: bold;
 }
 nav a {
-    text-decoration: none;
+  text-decoration: none;
 }
 nav ul {
-    list-style-type: none   ;
+  list-style-type: none;
 }
 nav li {
-    margin: 10px 0;
-    line-height: 20px;
-    font-size: 15px;
+  margin: 10px 0;
+  line-height: 20px;
+  font-size: 15px;
 }
 nav ul > ul {
-    margin-left: 10px;
-    color: #777;
+  margin-left: 10px;
+  color: #777;
 }
